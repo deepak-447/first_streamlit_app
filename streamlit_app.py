@@ -70,10 +70,3 @@ streamlit.dataframe(my_data_rows)
 
 
 
-def insert_row_snowflake(new_first):
-with my_cnx.cursor() as my_cur:
-my_cur.excute("insert into fruit_load_list values ('"+ jackfruit +"')")
-return "Thanks for adding" + New_fruit
-
-
-
